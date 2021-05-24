@@ -1,30 +1,30 @@
 # McPlayHD API Wrapper For Python
 ### Functions
-- Get FastBuilder Leaderboards
-... Any Position (1-50)
-... Any Mode
-- Get FastBuilder Stats For A Certain Player And Game Mode
-... Best Time
-... Average Time
-... Total Attempts
-... Total Successful Attempts
-... Verified Status
-... [Speedrun.com](https://speedrun.com/McPlayHD) Verified Status
-... Get Player Info
--- Rank
-... Debug Info
-... Response Time
-... Rate Limits
-... Token Auth Check
+#### Get FastBuilder Leaderboards
+-- Any Position (1-50)
+-- Any Mode
+#### Get FastBuilder Stats For A Certain Player And Game Mode
+-- Best Time
+-- Average Time
+-- Total Attempts
+-- Total Successful Attempts
+-- Verified Status
+-- [Speedrun.com](https://speedrun.com/McPlayHD) Verified Status
+-- Get Player Info
+#### Rank
+-- Debug Info
+-- Response Time
+-- Rate Limits
+-- Token Auth Check
 ### Soon To Come!
-- Get MineSweeper Stats For A Certain Player
-... Rank
-... Points In Season
-... Best Time
-... Average Time
-... Total Attempts
-... Total Successful Attempts
-... Total Mines Defused
+#### Get MineSweeper Stats For A Certain Player
+-- Rank
+-- Points In Season
+-- Best Time
+-- Average Time
+-- Total Attempts
+-- Total Successful Attempts
+-- Total Mines Defused
 ### Installation
 
 This library is hosted on [PyPI](https://pypi.org).
