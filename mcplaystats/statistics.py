@@ -66,3 +66,76 @@ def fb_stats_isSpeedrunVerified(gamemode,player_name,token):
     stats = data["stats"]
     sconfirmed = stats["speedrunConfirmed"]
     return sconfirmed;
+
+
+    #Minesweeper stuff THIS WONT WORK BECAUSE MCPLAYHD API ISNT UP FOR IT YET.
+def ms_stats_rank(player_name,token,season):
+    """
+    Get A Player's Rank in Minesweeper
+    """
+    if (season = "current"):
+        formatted_season = ""
+    statRequest = requests.get(url = "https://mcplayhd.net/api/minesweeper/stats/" + player_name + "/?token=" + token + "&season=" + formatted_season)
+    statJson = statRequest.json()
+    data = statJson["data"]
+    stats = data["stats"]
+def ms_stats_points(player_name,token,season):
+    """
+    Get A Player's Points This Season in Minesweeper
+    """
+    if (season = "current"):
+        formatted_season = ""
+    statRequest = requests.get(url = "https://mcplayhd.net/api/minesweeper/stats/" + player_name + "/?token=" + token + "&season=" + formatted_season)
+    statJson = statRequest.json()
+    data = statJson["data"]
+    stats = data["stats"]
+def ms_stats_pb(player_name,token,season):
+    """
+    Get A Player's Best Time in Minesweeper
+    """
+    if (season = "current"):
+        formatted_season = ""
+    statRequest = requests.get(url = "https://mcplayhd.net/api/minesweeper/stats/" + player_name + "/?token=" + token + "&season=" + formatted_season)
+    statJson = statRequest.json()
+    data = statJson["data"]
+    stats = data["stats"]
+def ms_stats_avg(player_name,token,season):
+    """
+    Get A Player's Average Time in Minesweeper
+    """
+    if (season = "current"):
+        formatted_season = ""
+    statRequest = requests.get(url = "https://mcplayhd.net/api/minesweeper/stats/" + player_name + "/?token=" + token + "&season=" + formatted_season)
+    statJson = statRequest.json()
+    data = statJson["data"]
+    stats = data["stats"]
+def ms_stats_attempts(player_name,token,season):
+    """
+    Get A Player's Total Attempts in Minesweeper
+    """
+    if (season = "current"):
+        formatted_season = ""
+    statRequest = requests.get(url = "https://mcplayhd.net/api/minesweeper/stats/" + player_name + "/?token=" + token + "&season=" + formatted_season)
+    statJson = statRequest.json()
+    data = statJson["data"]
+    stats = data["stats"]
+def ms_stats_wins(player_name,token,season):
+    """
+    Get A Player's Total Successful Attempts in Minesweeper
+    """
+    if (season = "current"):
+        formatted_season = ""
+    statRequest = requests.get(url = "https://mcplayhd.net/api/minesweeper/stats/" + player_name + "/?token=" + token + "&season=" + formatted_season)
+    statJson = statRequest.json()
+    data = statJson["data"]
+    stats = data["stats"]
+def ms_stats_defused(player_name,token,season):
+    """
+    Get A Player's Total Mines Defused in Minesweeper
+    """
+    if (season = "current"):
+        formatted_season = ""
+    statRequest = requests.get(url = "https://mcplayhd.net/api/minesweeper/stats/" + player_name + "/?token=" + token + "&season=" + formatted_season)
+    statJson = statRequest.json()
+    data = statJson["data"]
+    stats = data["stats"]

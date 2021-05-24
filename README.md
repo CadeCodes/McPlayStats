@@ -10,13 +10,13 @@
 - Total Successful Attempts
 - Verified Status
 - [Speedrun.com](https://speedrun.com/McPlayHD) Verified Status
-- Get Player Info
-#### Rank
-- Debug Info
+#### Get Player Info
+- Rank
+#### Debug Info
 - Response Time
 - Rate Limits
 - Token Auth Check
-### Soon To Come!
+### Soon To Come (McPlayHD Needs to Update API First.)
 #### Get MineSweeper Stats For A Certain Player
 - Rank
 - Points In Season
@@ -45,6 +45,14 @@ Example of Getting FastBuilder PB & Average Time for Notch in Game Mode Short
 from mcplaystats import statistics,player,debug
 notchsBestTime = statistics.fb_stats_pb("SHORT","Notch",<your api token>)
 notchsAvgTime = statistics.fb_stats_avg("SHORT","Notch",<your api token>)
+```
+
+Example of Getting Minesweeper PB & Average Time for Notch in Current Season
+
+```python
+from mcplaystats import statistics,player,debug
+notchsBestTime = statistics.ms_stats_pb("Notch",<your api token>,"current")
+notchsAvgTime = statistics.fb_stats_avg("Notch",<your api token>,"current")
 ```
 ### License
 
