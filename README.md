@@ -52,7 +52,7 @@ Example of Getting Minesweeper PB & Average Time for Notch in Current Season
 ```python
 from mcplaystats import statistics,player,debug
 notchsBestTime = statistics.ms_stats_pb("Notch",<your api token>,"current")
-notchsAvgTime = statistics.fb_stats_avg("Notch",<your api token>,"current")
+notchsAvgTime = statistics.ms_stats_avg("Notch",<your api token>,"current")
 ```
 ### License
 
